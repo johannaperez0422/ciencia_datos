@@ -1,4 +1,4 @@
-# Informe U2: Mi primer pipeline con dlt y DuckDB
+# Informe U2: Mi primer pipeline con dlt y DuckDB I_I
 
 **Estudiante:** Deysi Johanna Pérez Lesmo  
 **Usuario GitHub:** johannaperez0422  
@@ -28,6 +28,6 @@ Ejecuté las pruebas con pytest y obtuve `6 passed in 1.64s`. Se comprobaron la 
 
 Durante el proceso comprendí mejor el seguimiento de los pasos y las razones de ciertos fragmentos de código necesarios para ejecutar la tarea. También me estoy adaptando al entorno de trabajo de GitHub, aunque aún necesito conocer mejor sus posibilidades y limitaciones. La organización por ramas me ayudó a distinguir las actividades dentro del mismo repositorio.
 
-Todavía me resulta confusa la escritura técnica del código. Si bien entiendo lo que necesito realizar, aún no acompaño por completo el lenguaje de programación. Lo relaciono con aprender un nuevo idioma: mediante la práctica y la escritura constante podré desenvolverme mejor.
+Todavía me resulta confusa la escritura técnica del código. Si bien entiendo lo que necesito realizar, aún no acompaño por completo el lenguaje de programación. Lo relaciono con aprender un nuevo idioma: mediante la práctica y la escritura constante podré desenvolverme mejor, así también tuve varios inconvenientes con la conexión. 
 
-Utilicé ChatGPT/Codex para interpretar la consigna, preparar el código y las pruebas, organizar la rama y los commits, y recibir orientación sobre los comandos y resultados. También recibí ayuda para redactar este informe a partir de mi experiencia. Mi participación consistió en ejecutar los pasos en Codespaces, revisar las salidas y expresar mis dudas y aprendizajes. Actualmente la IA me acompaña en la interpretación y escritura del código, mientras continúo desarrollando mi autonomía.
+Utilicé ChatGPT/Codex para interpretar la consigna, preparar el código y las pruebas, organizar la rama y los commits, y recibir orientación sobre los comandos y resultados, mismo para no perder lo que avanzaba tras los cortes. También recibí ayuda para redactar los detalles más técnicos dentro de este informe. Mi participación consistió en ejecutar los pasos en Codespaces, revisar las salidas y expresar mis dudas y aprendizajes, sinceramente es la primera vez que comienzo a comprender cada pestaña y formato de archivo para el entorno. Actualmente la IA me acompaña en la escritura del código, mientras continúo desarrollando mi autonomía.

@@ -1,6 +1,6 @@
 # Informe técnico: pipeline analítico de un minimercado
 
-Base para revisión del equipo. Los resultados corresponden a la ejecución local con semilla 42. Antes de entregar, el equipo debe identificar a sus integrantes y verificar los resultados de su propia versión.
+**Equipo:** `tp-data-Grupo-Johanna-Adalberto`. **Integrantes:** Deysi Johanna Pérez Lesmo (`johannaperez0422`) y Adalberto (`cardozogautoa-eng`).
 
 ## Arquitectura y reproducibilidad
 
@@ -40,6 +40,10 @@ La ejecución generó 20 productos, 5 vendedores, 181 compras, 788 registros de 
 El vendedor 05 registró la mayor facturación, con Gs. 3.236.200. El azúcar alcanzó la mayor ganancia bruta estimada por producto, con Gs. 445.404,35. La clasificación ABC se calculó por unidades vendidas, ordenando de mayor a menor y usando cortes acumulados de 80 % y 95 %. La clase A reunió 12 productos y 1.467 unidades, aproximadamente el 84,4 % del total. Supera el primer corte porque el producto que lo cruza se conserva en esa clase.
 
 Para inventario, la rotación relaciona el costo de las ventas con el inventario promedio valorizado. Los días disponibles dividen el stock final por la demanda media diaria. El punto de reposición se fijó en nueve días de demanda esperada, como supuesto de siete días de plazo y dos de reserva. El jabón terminó con 7 unidades, por debajo del umbral de 10, y con 6,92 días estimados de cobertura.
+
+## Aportes y verificación
+
+Johanna organizó los archivos y los commits del proyecto, ejecutó el flujo en Codespaces y comprobó que Dagster lo completara. Se utilizó ChatGPT/Codex como apoyo para interpretar la consigna, preparar el código y las pruebas, revisar los cálculos y redactar la documentación. A partir de los CSV publicados se volvieron a calcular las unidades vendidas y la facturación neta, y se comprobó la correspondencia entre cada compra o venta y su movimiento de stock. Al momento de esta versión, las validaciones asignadas a Adalberto aún no se habían incorporado a la rama.
 
 ## Limitaciones y mejoras
 

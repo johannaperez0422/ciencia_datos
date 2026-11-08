@@ -43,7 +43,7 @@ Para inventario, la rotación relaciona el costo de las ventas con el inventario
 
 ## Aportes y verificación
 
-Johanna organizó los archivos y los commits del proyecto, ejecutó el flujo en Codespaces y comprobó que Dagster lo completara. Se utilizó ChatGPT/Codex como apoyo para interpretar la consigna, preparar el código y las pruebas, revisar los cálculos y redactar la documentación. A partir de los CSV publicados se volvieron a calcular las unidades vendidas y la facturación neta, y se comprobó la correspondencia entre cada compra o venta y su movimiento de stock. Al momento de esta versión, las validaciones asignadas a Adalberto aún no se habían incorporado a la rama.
+Yo me encargué de organizar los archivos y los commits del proyecto, ejecutó el flujo en Codespaces y comprobó que Dagster lo completara. utilicé ChatGPT/Codex como apoyo para interpretar la consigna del trabajo, así también los materiales del moodle como los videos de las clases, preparé el código y las pruebas, revisé además los cálculos y por último redacté la documentación, aunque durante la redacción el aporte del colega aún esta en proceso de adherencia. A partir de los CSV publicados volví a calcular las unidades vendidas y la facturación neta, y se comprobé la correspondencia entre cada compra o venta y su movimiento de stock.
 
 ## Limitaciones y mejoras
 

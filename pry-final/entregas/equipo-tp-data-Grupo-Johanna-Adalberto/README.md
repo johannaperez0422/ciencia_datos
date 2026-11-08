@@ -1,6 +1,6 @@
 # Pipeline analítico de un minimercado
 
-Base de trabajo para la [tarea final del curso](https://github.com/ubuntumb/ciencia_datos/tree/main/pry-final/entregas). El nombre `equipo-minimercado` es provisional: el equipo debe sustituirlo por `equipo-<nombre_del_grupo>` con el código `tp-data-G...` que le corresponda.
+Proyecto final del equipo `tp-data-Grupo-Johanna-Adalberto` para el módulo de Programación en Entornos de Datos. El flujo simula un minimercado y genera indicadores de ventas, rentabilidad e inventario a partir de datos sintéticos.
 
 ## Reproducir desde cero
 
@@ -32,16 +32,10 @@ uv run --locked python analisis.py
 - `data.duckdb`: tablas de origen en `raw` y modelos en `analytics`. Cada ingesta reemplaza el contenido de las tablas de origen, de modo que volver a cargar los mismos CSV no duplica filas.
 - `resultados.json`: estadística diaria, clasificación ABC, inventario, rentabilidad, vendedores y conciliaciones.
 - `target/run_results.json`: resultado de los 13 modelos y 50 controles ejecutados por dbt.
-- `informe.md`: arquitectura, decisiones, hallazgos y limitaciones para revisión del equipo.
+- `informe.md`: arquitectura, decisiones, hallazgos, limitaciones y registro de aportes.
 
 La prueba de integración ejecuta los cuatro activos de Dagster en una carpeta temporal y compara la facturación del resultado con el cálculo independiente a partir del CSV de ventas.
 
-## Preparar la entrega en equipo
-
-1. Confirmar los tres integrantes y el código del grupo con el docente.
-2. Partir de la versión actual de `main` del curso en el fork compartido. Crear la rama `pyt/equipo-<nombre_del_grupo>` y colocar la carpeta en `pry-final/entregas/equipo-<nombre_del_grupo>/`.
-3. Revisar y adaptar el proyecto entre todos. Cada integrante registra **al menos tres cambios significativos desde su cuenta**. Por ejemplo: generación, consistencia e ingesta; staging, integridad y métricas; orquestación, integración y documentación. El mínimo es nueve commits reales. Esta base se preparó con asistencia de IA y no constituye el historial de contribuciones del equipo.
-4. Ejecutar las pruebas sobre la versión del grupo y actualizar el informe con los resultados que verifiquen. Confirmar que el PR hacia `main` de `ubuntumb/ciencia_datos` modifica solo la carpeta del equipo.
-5. Cada integrante adjunta el informe final y el enlace al mismo PR en Moodle y confirma el envío.
+## Archivos del proyecto
 
 Conservar en Git los CSV, el código, la configuración, las pruebas y el informe. La base DuckDB y los archivos de ejecución se regeneran con los comandos anteriores.

@@ -1,6 +1,6 @@
 # Informe técnico: pipeline analítico de un minimercado
 
-**Equipo:** `tp-data-Grupo-Johanna-Adalberto`. **Integrantes:** Deysi Johanna Pérez Lesmo (`johannaperez0422`) y Adalberto (`cardozogautoa-eng`).
+**Equipo:** `tp-data-Grupo-Johanna-Adalberto`. **Integrantes:** Deysi Pérez Lesmo (`johannaperez0422`) y Adalberto Cardozo  (`cardozogautoa-eng`).
 
 ## Arquitectura y reproducibilidad
 
@@ -43,7 +43,7 @@ Para inventario, la rotación relaciona el costo de las ventas con el inventario
 
 ## Aportes y verificación
 
-Yo me encargué de organizar los archivos y los commits del proyecto, ejecutó el flujo en Codespaces y comprobó que Dagster lo completara. utilicé ChatGPT/Codex como apoyo para interpretar la consigna del trabajo, así también los materiales del moodle como los videos de las clases, preparé el código y las pruebas, revisé además los cálculos y por último redacté la documentación, aunque durante la redacción el aporte del colega aún esta en proceso de adherencia. A partir de los CSV publicados volví a calcular las unidades vendidas y la facturación neta, y se comprobé la correspondencia entre cada compra o venta y su movimiento de stock.
+Deysi Pérez se encargó de organizar los archivos y los commits del proyecto, ejecutó el flujo en Codespaces y comprobó que Dagster lo completara. Utilizó ChatGPT/Codex como apoyo para interpretar la consigna del trabajo, así también los materiales del moodle como los videos de las clases, preparó el código y las pruebas, revisó además los cálculos y por último la redacción de la documentación. A partir de los CSV publicados volvió a calcular las unidades vendidas y la facturación neta, y se comprobó la correspondencia entre cada compra o venta y su movimiento de stock. Al momento de elaboración de este informe, las validaciones asignadas a Adalberto Cardozo no se habían incorporado aún a la rama del equipo 
 
 ## Limitaciones y mejoras
 
